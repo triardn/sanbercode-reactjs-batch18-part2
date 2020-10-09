@@ -1,0 +1,18 @@
+.App h1 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.table {
+  margin-left: 20px;
+}
+
+.row-spacing {
+  border-spacing: 0 1rem;
+}
+
+button {
+  border-radius: 10px;
+  background-color: #ffffff;
+}
