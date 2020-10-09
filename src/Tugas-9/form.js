@@ -6,7 +6,7 @@ function Form() {
         <div className="App">
             <h1>Form Pembelian Buah</h1>
             <div className="table">
-            <table>
+            <table className="row-spacing">
                 <tr>
                 <td style={{width: '45%'}}><strong>Nama Pelanggan</strong></td>
                 <td><input type="text" style={{width: '200px'}} /></td>

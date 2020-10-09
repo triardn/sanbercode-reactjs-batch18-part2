@@ -1,0 +1,11 @@
+.container {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.list-title {
+  text-align: center;
+}
+
+.border-table {
+  border: 1px solid black;
+}
