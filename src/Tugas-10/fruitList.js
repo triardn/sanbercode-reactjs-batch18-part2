@@ -5,14 +5,8 @@ const convertWeight = (weight) => {
     return `${weight/1000} kg`
 }
 
-function Table() {
-    let dataHargaBuah = [
-        {nama: "Semangka", harga: 10000, berat: 1000},
-        {nama: "Anggur", harga: 40000, berat: 500},
-        {nama: "Strawberry", harga: 30000, berat: 400},
-        {nama: "Jeruk", harga: 30000, berat: 1000},
-        {nama: "Mangga", harga: 30000, berat: 500}
-    ];
+function Table({data}) {
+    const dataHargaBuah = data;
 
     return(
         <div className="container">
