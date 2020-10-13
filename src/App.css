@@ -13,7 +13,7 @@
   width: 50%;
   height: 35%;
   position: fixed;
-  top: 60%;
+  top: 20%; /* set back to 60 if form and timer need to be shown */
   left: 25%;
   border-radius: 10px;
 }
