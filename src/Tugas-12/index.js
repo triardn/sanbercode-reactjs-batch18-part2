@@ -132,7 +132,7 @@ class Table extends Component {
                             <table>
                                 <tbody>
                                     <tr>
-                                        <td style={{width: 200, fontWeight: 'bold'}}>
+                                        <td style={{width: 280, fontWeight: 'bold'}}>
                                             <label>
                                                 Masukkan nama buah:
                                             </label>
@@ -142,9 +142,9 @@ class Table extends Component {
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td style={{width: 200, fontWeight: 'bold'}}>
+                                        <td style={{width: 280, fontWeight: 'bold'}}>
                                             <label>
-                                                Masukkan harga buah:
+                                                Masukkan harga buah (dalam rupiah):
                                             </label>
                                         </td>
                                         <td>
@@ -152,9 +152,9 @@ class Table extends Component {
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td style={{width: 200, fontWeight: 'bold'}}>
+                                        <td style={{width: 280, fontWeight: 'bold'}}>
                                             <label>
-                                                Masukkan berat buah:
+                                                Masukkan berat buah (dalam gram):
                                             </label>
                                         </td>
                                         <td>
