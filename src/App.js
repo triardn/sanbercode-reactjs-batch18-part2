@@ -1,7 +1,7 @@
 import React from 'react';
-import Form from './Tugas-9/form';
-import Table from './Tugas-10/fruitList';
-import Timer from './Tugas-11';
+// import Form from './Tugas-9/form';
+import Table from './Tugas-12';
+// import Timer from './Tugas-11';
 import './App.css';
 
 function App() {
@@ -15,12 +15,12 @@ function App() {
 
   return (
     <div>
-      <div className="timer">
+      {/* <div className="timer">
         <Timer />
       </div>
       <div className="form">
         <Form />
-      </div>
+      </div> */}
       <div className="table-fruit-list">
         <Table data={dataHargaBuah} />
       </div>
