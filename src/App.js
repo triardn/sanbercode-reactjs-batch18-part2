@@ -1,7 +1,8 @@
 import React from 'react';
 // import Form from './Tugas-9/form';
-import Table from './Tugas-12';
 // import Timer from './Tugas-11';
+// import Table from './Tugas-12';
+import Table from './Tugas-13';
 import './App.css';
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
         <Form />
       </div> */}
       <div className="table-fruit-list">
-        <Table data={dataHargaBuah} />
+        <Table allData={dataHargaBuah} />
       </div>
     </div>
   );
