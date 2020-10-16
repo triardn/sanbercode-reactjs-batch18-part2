@@ -15,4 +15,14 @@
 button {
   border-radius: 10px;
   background-color: #ffffff;
+  margin-bottom: 5%;
+}
+
+.container {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 40%;
+  height: 100%;
+  margin-left: 30%;
+  margin-top: 10%;
 }
