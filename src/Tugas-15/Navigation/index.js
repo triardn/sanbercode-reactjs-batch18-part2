@@ -33,7 +33,7 @@ const Routes = () => {
                     <T11 />
                 </Route>
                 <Route path="/tugas-12">
-                    <T12 />
+                    <T12 data={dataHargaBuah} />
                 </Route>
                 <Route path="/tugas-13">
                     <T13 />

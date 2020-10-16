@@ -28,7 +28,7 @@ function Form() {
                     </td>
                     </tr>
                 </table>
-                <button>Kirim</button>
+                <button className="button">Kirim</button>
                 </div>  
             </div>
         </div>

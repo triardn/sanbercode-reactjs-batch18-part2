@@ -95,7 +95,7 @@ class Table extends Component {
 
     render() {
         return(
-            <div className="container">
+            <div className="container-12">
                 <div className="list-title">
                     <h1>Table Harga Buah</h1>
                 </div>
@@ -127,7 +127,7 @@ class Table extends Component {
                 {/* Form */}
                 <div className="form-input-fruits">
                     <div className="form-container">
-                        <h1>Form Harga Buah</h1>
+                        <h1 className="list-title">Form Harga Buah</h1>
                         <form onSubmit={this.handleSubmit}>
                             <table>
                                 <tbody>
@@ -163,7 +163,7 @@ class Table extends Component {
                                     </tr>
                                 </tbody>
                             </table>
-                            <button style={{marginTop: 10}}>submit</button>
+                            <button className="button-12">submit</button>
                         </form>
                     </div>
                 </div>
