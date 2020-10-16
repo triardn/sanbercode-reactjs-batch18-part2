@@ -2,6 +2,7 @@ import React from 'react';
 import {Switch, Route} from 'react-router';
 
 import Nav from './Nav';
+import Home from './../Home';
 import T9 from './../../Tugas-9/form';
 import T10 from './../../Tugas-10/fruitList';
 import T11 from './../../Tugas-11';
@@ -42,7 +43,7 @@ const Routes = () => {
                     <T14 />
                 </Route>
                 <Route path="/">
-                    <T9 />
+                    <Home />
                 </Route>
             </Switch>
         </div>
