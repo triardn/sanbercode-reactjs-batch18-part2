@@ -9,7 +9,7 @@ function Table({data}) {
     const dataHargaBuah = data;
 
     return(
-        <div className="container">
+        <div className="container-10">
             <div className="list-title">
                 <h1>Table Harga Buah</h1>
             </div>
