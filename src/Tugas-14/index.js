@@ -8,7 +8,7 @@ import './style.css';
 const Fruit = () => {
     return (
         <FruitListProvider>
-            <div className="container">
+            <div className="container-14">
                 <FruitList />
                 <FruitListForm />
             </div>

@@ -3,22 +3,24 @@ import React from 'react';
 // import Timer from './Tugas-11';
 // import Table from './Tugas-12';
 // import Table from './Tugas-13';
-import Table from './Tugas-14';
+// import Table from './Tugas-14';
+import AppWithRoute from './Tugas-15';
 import './App.css';
 
 function App() {
   return (
-    <div className="body-container">
-      {/* <div className="timer">
-        <Timer />
-      </div>
-      <div className="form">
-        <Form />
-      </div> */}
-      <div className="table-fruit-list">
-        <Table />
-      </div>
-    </div>
+    // <div className="body-container">
+    //   {/* <div className="timer">
+    //     <Timer />
+    //   </div>
+    //   <div className="form">
+    //     <Form />
+    //   </div> */}
+    //   <div className="table-fruit-list">
+    //     <Table />
+    //   </div>
+    // </div>
+    <AppWithRoute />
   );
 }
 

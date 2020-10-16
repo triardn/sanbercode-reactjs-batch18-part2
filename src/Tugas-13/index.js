@@ -121,7 +121,7 @@ const Table = () => {
     };
 
     return(
-        <div className="container">
+        <div className="container-13">
             <div className="list-title">
                 <h1>Table Harga Buah</h1>
             </div>

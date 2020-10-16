@@ -60,8 +60,10 @@ class Timer extends Component{
   render(){
       if (this.state.isShow) {
         return(
-            <div>
+            <div style={{marginTop: '20%', textAlign: "center"}}>
+              <div>
                 <h1>Sekarang jam : {this.showTime()} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hitung mundur: {this.state.time}</h1>
+              </div>
             </div>
         )
       } else {
